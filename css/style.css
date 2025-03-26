@@ -205,25 +205,25 @@ span {
 .services-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 2rem;  
 }
 
 .services-container .services-box {
     flex: 1 1 30rem;
-    background: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
-    text-align: center;
-    border: .2rem solid var(--bg-color);
-    transition: .5s ease;
-    display: flex;
-    flex-direction: column;
-    /* Pour aligner le texte et le bouton */
-    justify-content: space-between;
-     min-height: 400px;
-     /* Définit une hauteur minimale égale pour toutes les boîtes */
+        background: var(--second-bg-color, #fff);
+        padding: 3rem 2rem 4rem;
+        border-radius: 2rem;
+        text-align: center;
+        border: .2rem solid var(--bg-color, #ddd);
+        transition: .5s ease;
+        display: flex;
+        flex-direction: column;
+        /* Pour aligner le texte et le bouton */
+        justify-content: space-between;
+        min-height: 400px;
+        /* Définit une hauteur minimale égale pour toutes les boîtes */
 }
 
 .services-container .services-box:hover {
