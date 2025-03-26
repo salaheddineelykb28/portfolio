@@ -218,6 +218,12 @@ span {
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
+    display: flex;
+    flex-direction: column;
+    /* Pour aligner le texte et le bouton */
+    justify-content: space-between;
+     min-height: 400px;
+     /* Définit une hauteur minimale égale pour toutes les boîtes */
 }
 
 .services-container .services-box:hover {
